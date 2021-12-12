@@ -9,9 +9,10 @@ import {
   FormGroup,
   Input,
   Label,
+
 } from "reactstrap";
 
-export default class CustomModal extends Component {
+class CustomModal extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -94,3 +95,5 @@ export default class CustomModal extends Component {
     );
   }
 }
+
+export default CustomModal;
